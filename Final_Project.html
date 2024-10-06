@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Final_project.css">
+    <title>Final Project</title>
+</head>
+<body>
+    <div class="sidebar">
+        
+        <span class="site-name"><img src="images/logo.jpg" alt="logo">bringovo</span>
+        <ul>
+            <li><img src="images/live_orders.jpg" alt="">Live Orders</li>
+            <li><img src="images/order_history.jpg" alt=""> Order History</li>
+            <li><img src="images/offers.jpg" alt="">Offers</li>
+            <li><img src="images/prod.jpg" alt="">Products</li>
+            <li><img src="images/stock.jpg" alt="">Stock</li>
+            <li><img src="images/msg.jpg" alt="">Message</li>
+            <li><img src="images/settings.jpg" alt="">Settings</li>
+        </ul>
+    </div>
+    <div class="main-content">
+        <textarea name="search" id="">search</textarea>
+        <div class="switch">
+        <button id="recent-btn">open for order</button>
+        <img src="images/bell_icon.jpg" alt="">
+        <img style="width: 120px; border-radius: 0 ; float: right;" src="images/profile.jpg" alt="">
+        </div>
+        <h1>Live Orders</h1>
+        <div class="summary-panel">
+            <div class="summary-item">
+                <img src="images/orders.jpg" alt="">47 Orders </div>
+            <div class="summary-item">
+                <img src="images/pend.jpg" alt="">56 Total Pending </div>
+            <div class="summary-item">
+                <img src="images/dispatch.jpg" alt="">26 Total Dispatch</div>
+        </div>
+        <h1>Orders</h1>
+        <button id="recent-btn">recent order</button>
+        <table class="orders-table">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Payment</th>
+                    <th>Time Remaining</th>
+                    <th>Type</th>                 
+                    <th>Status</th>
+                    <th>Total</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>#2632</td>
+                    <td>Brookiyn Zoe</td>
+                    <td>Paid</td>
+                    <td>13 min</td>
+                    <td>Delivery</td>
+                    <td>on the way</td>
+                    <td>$12</td>
+                    <td>
+                        <select class="action-dropdown">
+                            <option value="">Actions</option>
+                            <option value="cancel">Cancel</option>
+                            <option value="message">Message</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>#2632</td>
+                    <td>Alice Krejcoa</td>
+                    <td>Paid</td>
+                    <td>49 min</td>
+                    <td>Collection</td>
+                    <td>on the way</td>
+                    <td>$14</td>
+                    <td>
+                        <select class="action-dropdown">
+                            <option value="">Actions</option>
+                            <option value="cancel">Cancel</option>
+                            <option value="message">Message</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <tr>
+                        <td>#2632</td>
+                        <td>Jurrian van</td>
+                        <td>Cash</td>
+                        <td>07 min</td>
+                        <td>Delivery</td>
+                        <td>on the way</td>
+                        <td>$18</td>
+                    <td>
+                        <select class="action-dropdown">
+                            <option value="">Actions</option>
+                            <option value="cancel">Cancel</option>
+                            <option value="message">Message</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <tr>
+                        <td>#2632</td>
+                        <td>Ya chin-Ho</td>
+                        <td>Paid</td>
+                        <td>49 min</td>
+                        <td>Collection</td>
+                        <td>on the way</td>
+                        <td>$26</td>
+                    <td>
+                        <select class="action-dropdown">
+                            <option value="">Actions</option>
+                            <option value="cancel">Cancel</option>
+                            <option value="message">Message</option>
+                        </select>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
